@@ -1,0 +1,41 @@
+body{
+    background-image: url(./hatter.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #504033;
+    font-family: "Lucida Console",Monaco,monospace;
+    font-size: large;
+    margin-right: 250px;
+    margin-left: 250px;
+    line-height: 1.5;
+}
+.keret{
+    padding: 15px;
+    background-color: rgba(255,255,255,0.8);
+}
+h1, h2{
+    font-size: xx-large;
+}
+.keret>p{
+    text-indent: 25px;
+}
+#emlek{
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border: 15px solid #504033;
+    border-style: inset;
+}
+.paprika{
+    height: 300px;
+    float: left;
+}
+li{
+    list-style-image: url(./dot.png);
+}
+hr{
+    height: 5px;
+    width: 90%;
+    color: #504033;
+    box-shadow: 0 2px 2px black ;
+}
